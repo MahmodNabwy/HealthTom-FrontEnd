@@ -80,7 +80,6 @@ export const Visits = () => {
   const handlePageChange = (value: any) => {
     setPage(value);
     retrieveVisits(value);
-    console.log("test");
   };
 
   const columns: Column[] = useMemo(
