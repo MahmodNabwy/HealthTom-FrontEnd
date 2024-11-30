@@ -1,0 +1,94 @@
+.Reports{
+    background: #F1F5F9;  
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    .banner{
+        border-radius: 10px;
+        background: var(--Additional-white, #FFF);
+        height: auto;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    .banner-txt{
+        color: var(--Greyscale-500, #64748B);
+        text-align: right;
+
+        /* body/medium/semibold */
+        font-family: MadaniArabic-SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        letter-spacing: 0.2px;
+    }
+    .banner-number{
+        color: var(--Greyscale-900, #0F172A);
+        text-align: right;
+        font-family: MadaniArabic-SemiBold;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;  
+        letter-spacing: 0.2px;
+    }
+    .banner-percentage{
+        display: flex;
+        padding: 4px 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: var(--Secondary-Algal-fuel-50, #F0FDF4);
+        color: #70D44B;
+        text-align: right; 
+        font-family: MadaniArabic-Medium;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; 
+        height: 30px;
+    }
+    .banner-section{
+        border-left: 1px solid rgba(112, 212, 75, 0.07);;
+    }
+    .users-statisics-section{
+        
+        height: auto;
+        padding-bottom: 20px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: var(--Additional-white, #FFF);
+    }
+    .statistics_title{
+        color: var(--Greyscale-900, #0F172A);
+        text-align: right; 
+        font-family: MadaniArabic-SemiBold;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;  
+        letter-spacing: 0.2px;
+    }
+    .dot-active{
+        width: 10px;
+        height: 10px;
+        border-radius: 4px;
+        background: #124734;
+    }
+    .dot-disabled{
+        width: 10px;
+        height: 10px;
+        border-radius: 4px;
+        background: #70D44B;
+    }
+    .user-count{
+        color: var(--Greyscale-500, #64748B);
+        text-align: right;
+        font-family: MadaniArabic-Medium;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 19.2px */
+    }
+}
